@@ -11,9 +11,7 @@ Official Implementation of "Denoising Diffusion Semantic Segmentation with Mask 
 ## News
 
 - [ ] Release training code.
-- [ ] Integrate an online demo of DDPS into InternGPT.
-
-> InternGPT is online (see https://igpt.opengvlab.com). Let's try it!
+- [ ] Integrate an online demo of DDPS into [InternGPT](https://github.com/OpenGVLab/InternGPT).
 
 ## Overview
 
