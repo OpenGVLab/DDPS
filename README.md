@@ -17,7 +17,7 @@ Official Implementation of "Denoising Diffusion Semantic Segmentation with Mask 
 
 - Mask prior modeling
 
-<img width="530" alt="image" src="https://github.com/OpenGVLab/DDPS/assets/26198430/7c20698a-5c5a-45e7-91a1-e8193950f723">
+<img width="450" alt="image" src="https://github.com/OpenGVLab/DDPS/assets/26198430/7c20698a-5c5a-45e7-91a1-e8193950f723">
 
 - Overview Architecture
 
