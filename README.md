@@ -19,15 +19,15 @@ Official Implementation of **DDPS** (Denoising Diffusion Prior for Segmentation)
 - [ ] Release training code.
 - [ ] Integrate an online demo of DDPS into [InternGPT](https://github.com/OpenGVLab/InternGPT).
 
-## Overview
-
-
+## Evaluation
 
 - Mask Prior Modeling
 
 <img width="450" alt="image" src="https://github.com/OpenGVLab/DDPS/assets/26198430/7c20698a-5c5a-45e7-91a1-e8193950f723">
 
 ## Citation
+
+If you find this work helpful, please consider cite our paper.
 
 ```bibtex
 @misc{lai2023ddps,
@@ -37,3 +37,8 @@ Official Implementation of **DDPS** (Denoising Diffusion Prior for Segmentation)
   year = {2023},
 }
 ```
+
+## Acknowledgement
+
+[MMSegmentation](https://github.com/open-mmlab/mmsegmentation) &ensp;  [VQDiffusion](https://github.com/cientgu/VQ-Diffusion)  &ensp;  [Segformer](https://github.com/NVlabs/SegFormer) &ensp; [Diffusers](https://github.com/huggingface/diffusers)
+
