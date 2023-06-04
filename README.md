@@ -4,9 +4,9 @@
 
 Official Implementation of **DDPS** (Denoising Diffusion Prior for Segmentation).
 
-**Denoising Diffusion Semantic Segmentation with Mask Prior Modeling**
-<br/>
-Zeqiang Lai, Yuchen duan, Jifeng Dai, Ziheng Li, Ying Fu, Hongsheng Li, Yu Qiao, and Wenhai Wang
+> **Denoising Diffusion Semantic Segmentation with Mask Prior Modeling**
+> <br/>
+> Zeqiang Lai, Yuchen duan, Jifeng Dai, Ziheng Li, Ying Fu, Hongsheng Li, Yu Qiao, and Wenhai Wang
 
 <img width="700" alt="截屏2023-06-02 21 49 30" src="https://github.com/OpenGVLab/DDPS/assets/26198430/b6153ec4-e15c-41f5-a47b-d4a035eb3991">
 
