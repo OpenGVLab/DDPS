@@ -8,7 +8,7 @@ Official Implementation of **DDPS** (Denoising Diffusion Prior for Segmentation)
 > <br/>
 > Zeqiang Lai, Yuchen duan, Jifeng Dai, Ziheng Li, Ying Fu, Hongsheng Li, Yu Qiao, and Wenhai Wang
 
-<img width="700" alt="截屏2023-06-02 21 49 30" src="https://github.com/OpenGVLab/DDPS/assets/26198430/b6153ec4-e15c-41f5-a47b-d4a035eb3991">
+<img width="700" alt="arch" src="https://github.com/OpenGVLab/DDPS/assets/26198430/769ad1f2-d5b9-442e-bd0a-9211be705dc1">
 
 ## **Abstract**
 
@@ -23,7 +23,7 @@ Official Implementation of **DDPS** (Denoising Diffusion Prior for Segmentation)
 
 - Mask Prior Modeling
 
-<img width="450" alt="image" src="https://github.com/OpenGVLab/DDPS/assets/26198430/7c20698a-5c5a-45e7-91a1-e8193950f723">
+<img width="450" alt="prior" src="https://github.com/OpenGVLab/DDPS/assets/26198430/3bec572b-c2b5-4094-9fdb-b9f3fcf41333">
 
 ## Citation
 
