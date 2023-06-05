@@ -1,6 +1,6 @@
 # DDPS
 
-[`Arxiv`]() | [`Demo with InternGPT`](https://github.com/OpenGVLab/InternGPT)
+[`Arxiv`](https://arxiv.org/abs/2306.01721) | [`Demo with InternGPT`](https://github.com/OpenGVLab/InternGPT)
 
 Official Implementation of **DDPS** (Denoising Diffusion Prior for Segmentation).
 
