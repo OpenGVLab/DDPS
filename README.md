@@ -11,10 +11,11 @@ PyTorch implementation and pretrained models for **DDPS** (Denoising Diffusion P
 <img width="700" alt="arch" src="https://github.com/OpenGVLab/DDPS/assets/26198430/769ad1f2-d5b9-442e-bd0a-9211be705dc1">
 
 
-## 🌟 News
+## News
 
-- [ ] Release training code.
-- [ ] Integrate an online demo of DDPS into [InternGPT](https://github.com/OpenGVLab/InternGPT).
+- **[TBD]** Integrate an online demo into [InternGPT](https://github.com/OpenGVLab/InternGPT).
+- **[TBD]** Release code and pretrained models.
+- **[2023/6/2]** Release paper to arXiv. 
 
 ## DDPS Model
 
