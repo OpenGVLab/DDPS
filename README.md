@@ -1,27 +1,57 @@
-# DDPS
+# DDPS: Denoising Diffusion Prior for Segmentation
 
-[`Arxiv`](https://arxiv.org/abs/2306.01721) | [`Demo with InternGPT`](https://github.com/OpenGVLab/InternGPT)
+Zeqiang Lai, Yuchen duan, Jifeng Dai, Ziheng Li, Ying Fu, Hongsheng Li, Yu Qiao, and Wenhai Wang
 
-Official Implementation of **DDPS** (Denoising Diffusion Prior for Segmentation).
+[[`Paper`](https://arxiv.org/abs/2306.01721)] [[`Demo`](https://github.com/OpenGVLab/InternGPT)] [[`Bibtex`](#citation)]
 
-> **Denoising Diffusion Semantic Segmentation with Mask Prior Modeling**
-> <br/>
-> Zeqiang Lai, Yuchen duan, Jifeng Dai, Ziheng Li, Ying Fu, Hongsheng Li, Yu Qiao, and Wenhai Wang
+PyTorch implementation and pretrained models for **DDPS** (Denoising Diffusion Prior for Segmentation). For details, see paper: [**Denoising Diffusion Semantic Segmentation with Mask Prior Modeling**](https://arxiv.org/abs/2306.01721).
+
+> DDPS explore the mask prior modeled by a recently developed denoising diffusion generative model for ameliorating the semantic segmentation quality of existing discriminative approaches. DDPS focuses on a discrete instantiation of a unified architecture that adapts diffusion models for mask prior modeling, with two novel training and inference strategies, i.e., `Diffusion-on-First-Prediction` diffusion strategy and `Free-Re-noising` denoising strategy.
 
 <img width="700" alt="arch" src="https://github.com/OpenGVLab/DDPS/assets/26198430/769ad1f2-d5b9-442e-bd0a-9211be705dc1">
 
-## **Abstract**
-
-> The evolution of semantic segmentation has long been dominated by learning more discriminative image representations for classifying each pixel. Despite the prominent advancements, the priors of segmentation masks themselves, e.g., geometric and semantic constraints, are still under-explored. In this paper, we propose to ameliorate the semantic segmentation quality of existing discriminative approaches with a mask prior modeled by a recently developed denoising diffusion generative model. Beginning with a unified architecture that adapts diffusion models for mask prior modeling, we focus this work on a specific instantiation with discrete diffusion and identify a variety of key design choices for its successful application. Our exploratory analysis revealed several important findings, including: (1) a simple integration of diffusion models into semantic segmentation is not sufficient, and a poorly-designed diffusion process might lead to degradation in segmentation performance; (2) during the training, the object to which noise is added is more important than the type of noise; (3) during the inference, the strict diffusion denoising scheme may not be essential and can be relaxed to a simpler scheme that even works better. We evaluate the proposed prior mod- eling with several off-the-shelf segmentors, and our experimental results on ADE20K and Cityscapes demonstrate that our approach could achieve competitively quantitative performance and more appealing visual quality.
 
 ## 🌟 News
 
 - [ ] Release training code.
 - [ ] Integrate an online demo of DDPS into [InternGPT](https://github.com/OpenGVLab/InternGPT).
 
-## Evaluation
+## DDPS Model
 
-- Mask Prior Modeling
+Semantic segmentation performance on ADE20K.
+
+| Method          | Backbone     | Params (M) | mIoU (ss) | mIoU (ms) | mBIoU | Download       |
+| --------------- | ------------ | ---------- | --------- | --------- | ----- | -------------- |
+| DDPS-DeeplabV3+ | MobibleNetV2 | 27.9       | 38.07     | 39.07     | 23.47 | [checkpoint]() |
+| DDPS-Segformer  | MiT-B0       | 15.1       | 41.67     | 41.95     | 26.77 | [checkpoint]() |
+| DDPS-DeeplabV3+ | ResNet50     | 54.2       | 45.26     | 46.01     | 30.39 | [checkpoint]() |
+| DDPS-Segformer  | MiT-B2       | 65.5       | 41.67     | 41.95     | 33.95 | [checkpoint]() |
+| DDPS-DeeplabV3+ | ResNet101    | 104.3      | 46.32     | 46.99     | 31.82 | [checkpoint]() |
+| DDPS-Segformer  | MiT-B5       | 122.8      | 51.11     | 51.71     | 35.66 | [checkpoint]() |
+
+Semantic segmentation performance on Cityscapes.
+
+| Method          | Backbone     | Params (M) | mIoU (ss) | mIoU (ms) | mBIoU | Download       |
+| --------------- | ------------ | ---------- | --------- | --------- | ----- | -------------- |
+| DDPS-DeeplabV3+ | MobibleNetV2 | 27.9       | 78.11     | 79.73     | 61.14 | [checkpoint]() |
+| DDPS-Segformer  | MiT-B0       | 15.1       | 78.19     | 79.62     | 64.07 | [checkpoint]() |
+| DDPS-DeeplabV3+ | ResNet50     | 54.2       | 81.39     | 82.27     | 65.76 | [checkpoint]() |
+| DDPS-Segformer  | MiT-B2       | 65.5       | 81.77     | 82.22     | 67.75 | [checkpoint]() |
+| DDPS-DeeplabV3+ | ResNet101    | 104.3      | 81.68     | 82.51     | 65.96 | [checkpoint]() |
+| DDPS-Segformer  | MiT-B5       | 122.8      | 82.42     | 82.94     | 66.45 | [checkpoint]() |
+
+
+## Installation
+
+See [INSTALL.md](INSTALL.md) for installation details.
+
+## Usage
+
+To be finished.
+
+## Visualization
+
+Mask Prior Modeling
 
 <img width="450" alt="prior" src="https://github.com/OpenGVLab/DDPS/assets/26198430/3bec572b-c2b5-4094-9fdb-b9f3fcf41333">
 
