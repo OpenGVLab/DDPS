@@ -26,7 +26,7 @@ Semantic segmentation performance on ADE20K.
 | DDPS-DeeplabV3+ | MobibleNetV2 | 27.9       | 38.07     | 39.07     | 23.47 | [checkpoint]() |
 | DDPS-Segformer  | MiT-B0       | 15.1       | 41.67     | 41.95     | 26.77 | [checkpoint]() |
 | DDPS-DeeplabV3+ | ResNet50     | 54.2       | 45.26     | 46.01     | 30.39 | [checkpoint]() |
-| DDPS-Segformer  | MiT-B2       | 65.5       | 41.67     | 41.95     | 33.95 | [checkpoint]() |
+| DDPS-Segformer  | MiT-B2       | 65.5       | 49.73     | 49.96     | 33.95 | [checkpoint]() |
 | DDPS-DeeplabV3+ | ResNet101    | 104.3      | 46.32     | 46.99     | 31.82 | [checkpoint]() |
 | DDPS-Segformer  | MiT-B5       | 122.8      | 51.11     | 51.71     | 35.66 | [checkpoint]() |
 
@@ -40,7 +40,6 @@ Semantic segmentation performance on Cityscapes.
 | DDPS-Segformer  | MiT-B2       | 65.5       | 81.77     | 82.22     | 67.75 | [checkpoint]() |
 | DDPS-DeeplabV3+ | ResNet101    | 104.3      | 81.68     | 82.51     | 65.96 | [checkpoint]() |
 | DDPS-Segformer  | MiT-B5       | 122.8      | 82.42     | 82.94     | 66.45 | [checkpoint]() |
-
 
 ## Installation
 
