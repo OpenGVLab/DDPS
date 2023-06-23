@@ -1,6 +1,6 @@
 # DDPS: Denoising Diffusion Prior for Segmentation
 
-Zeqiang Lai, Yuchen duan, Jifeng Dai, Ziheng Li, Ying Fu, Hongsheng Li, Yu Qiao, and Wenhai Wang
+Zeqiang Lai*, Yuchen duan*, Jifeng Dai, Ziheng Li, Ying Fu, Hongsheng Li, Yu Qiao, and Wenhai Wang
 
 [[`Paper`](https://arxiv.org/abs/2306.01721)] [[`Demo`](https://github.com/OpenGVLab/InternGPT)] [[`Bibtex`](#citation)]
 
