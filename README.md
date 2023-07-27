@@ -2,11 +2,13 @@
 
 Zeqiang Lai*, Yuchen duan*, Jifeng Dai, Ziheng Li, Ying Fu, Hongsheng Li, Yu Qiao, and Wenhai Wang
 
-[[`Paper`](https://arxiv.org/abs/2306.01721)] [[`Demo`](https://github.com/OpenGVLab/InternGPT)] [[`Bibtex`](#citation)]
-
-PyTorch implementation and pretrained models for **DDPS** (Denoising Diffusion Prior for Segmentation). For details, see paper: [**Denoising Diffusion Semantic Segmentation with Mask Prior Modeling**](https://arxiv.org/abs/2306.01721).
+[**Denoising Diffusion Semantic Segmentation with Mask Prior Modeling**](https://arxiv.org/abs/2306.01721).
 
 > DDPS explore the mask prior modeled by a recently developed denoising diffusion generative model for ameliorating the semantic segmentation quality of existing discriminative approaches. DDPS focuses on a discrete instantiation of a unified architecture that adapts diffusion models for mask prior modeling, with two novel training and inference strategies, i.e., `Diffusion-on-First-Prediction` diffusion strategy and `Free-Re-noising` denoising strategy.
+
+<a href="https://arxiv.org/abs/2306.01721"><img src="https://img.shields.io/badge/arXiv-2306.01721-b31b1b.svg"></a>
+<a href="https://github.com/OpenGVLab/InternGPT"><img src="https://img.shields.io/static/v1?label=Project&message=Demo&color=red"></a> 
+[![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue)](https://huggingface.co/aaronb/DDPS-all)
 
 <img width="700" alt="arch" src="https://github.com/OpenGVLab/DDPS/assets/26198430/769ad1f2-d5b9-442e-bd0a-9211be705dc1">
 
